@@ -83,6 +83,10 @@ En este primer apartado debemos escribir el esquema básico que tendrá nuestra 
 
 Después creamos un nuevo archivo en nuestro editor al cual llamaremos como queramos pero con la extención *.css* ya que aquí escribiremos los efectos y animaciones asi también como el formato que tendrá la página de nuestro CVV.
 
+Estos serían los resultados hasta ahora solo con HTML.
+
+![CVV](recursos/html1.JPG)
+![CVV](recursos/hml1.1.JPG)
 
 
 
@@ -173,6 +177,11 @@ header .valor{
 
 
 ```
+
+
+El resultado final usando HTML y CSS sería el siguiente.
+![CVV](recursos/html2.2.JPG)
+![CVV](recursos/html2..1.JPG)
 
 
 
