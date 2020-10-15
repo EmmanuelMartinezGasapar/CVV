@@ -1,0 +1,223 @@
+/* Estilos Generales */
+
+*{
+    margin: 5;
+    padding: 10;
+    box-sizing: border-box;
+
+    font-size: 20;
+    font-family: 'Tinos';
+    font-weight: 400;
+}
+
+img{
+    vertical-align: top;
+}
+a{
+    text-decoration: none;
+}
+s
+
+body{
+    overflow-x: hidden;
+}
+
+
+header{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    padding: 25vh 0;
+
+    background: url('../recursos/img/fondo5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+    animation: in ;
+    animation-iteration-count: initial;
+    animation-duration: 2s;
+}
+
+
+header .title{
+
+    width: 100%;
+    text-align: center;
+    font-size: 5em;
+    font-weight: 0;
+
+    padding: 70px 0;
+    color: #fff;
+    background: rgba(90,90,255,.5);
+}
+
+header figure{
+    text-align: center;
+    margin: 30px 0;
+}
+
+header figure img{
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid rgba(255, 255, 255, .1)
+}
+
+header .valor{
+    text-align: center;
+    color: ##313131;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+
+/* Main */
+
+main{
+    width: 100%;
+    margin-top: 200px;
+}
+
+
+
+.encabezado{
+    /*ubicacion del texto*/
+    width: 100%;
+    position: relative;
+    text-align: center;
+    /*color rgb del espacio donde está el texto*/
+    background: rgb(25,150,220);
+    padding: 50px 0;
+    margin-bottom: 200px;
+}
+
+main .encabezado article{
+    width: 100%;
+    /*laterales*/
+    max-width: 1000px;
+    margin: auto;
+    /*Espaciado entre parrafos*/
+    line-height: 20px;
+    /*tamaño del cuadro*/
+    margin-bottom: 50px;
+}
+
+
+/* ===characteristics*/
+
+main .miinfo{
+    /*ubicacion de mis datos*/
+    margin: auto;
+    margin-bottom: 300px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main .miinfo .informacion{
+    /*cuadros mis datos*/
+    width: 20%;
+    padding: 30px;
+    text-align: center;
+    background: rgb(30,190,255,.8);
+    transition: all .3s ease;
+}
+/*cuando paso el cursor sobre los cuadros*/
+main .miinfo .informacion:hover{
+    transform: scale(1.1);
+    background: rgb(0,50,255);
+}
+
+
+
+main .miinfo .informacion .desc{
+    font-weight: 300;
+    font-size: 1em;
+    color: #ffffff;
+}
+main .miinfo .informacion .desc a{
+    color: #222;
+}
+
+
+
+/* conocimientos  */
+
+main .conocimientos {
+    width: 85%;
+    margin: auto;
+    max-width: 1500px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main .conocimientos .title{
+    width: 100%;
+    font-size: 3em;
+    color: #444;
+    margin-bottom: 20px;
+    margin: auto;
+    margin-bottom: 100px;    
+}
+
+    .conoc{
+        width: 25%;
+        text-align: center;
+        margin: 0 10px ;
+        margin-bottom: 30px;
+        padding: 20px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .conoc img{
+        width: 140px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .conoc p{
+        width: 100%;
+        font-weight: 700;
+        text-align: center;
+    }
+
+
+
+footer{
+    margin-top: 100px;
+    padding: 10px;
+    background: rgb(178,178,178);
+}
+
+footer .personal{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+footer .personal h3 {
+    font-size: 5em;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 4px;
+}
+
+footer .personal  p{
+    color: #fff;
+    font-weight: bold;   
+}
+
+footer .redes  {
+    width: 140px;
+    margin: auto;
+    margin-bottom: 20px;
+}
